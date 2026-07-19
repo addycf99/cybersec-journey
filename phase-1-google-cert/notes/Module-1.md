@@ -58,3 +58,11 @@ A person or group who presents a **security risk**.
 **SPII (Sensitive Personally Identifiable Information)**: A specific type of PII that falls under stricter handling rules because exposure could cause serious harm.
 - 🔒 Examples: **SSN**, bank account/credit card numbers, medical records, biometric data (fingerprints, facial recognition), passwords
 - ⚠️ **Key difference** — SPII requires extra layers of protection (encryption, restricted access) since a breach can lead to identity theft or financial/medical harm
+
+# SIEM (Security Information and Event Management) — Core Definition
+**A tool that collects and analyzes log data from across an organization's technology infrastructure to detect, monitor, and respond to security threats in real time.**
+
+- 📡 **Collects** — aggregates logs from networks, servers, devices, and applications into one place
+- 🔎 **Analyzes** — flags unusual patterns or anomalies that could indicate a threat
+- 🚨 **Alerts** — notifies security analysts in real time so they can investigate and respond quickly
+- 🧰 **Examples** — Splunk, Chronicle (Google), IBM QRadar
