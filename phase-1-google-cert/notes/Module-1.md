@@ -67,17 +67,13 @@ A person or group who presents a **security risk**.
 - 🚨 **Alerts** — notifies security analysts in real time so they can investigate and respond quickly
 - 🧰 **Examples** — Splunk, Chronicle (Google), IBM QRadar
 
-
+---
 
 ## Computer Virus — Core Definition
-
 **Malicious code written to interfere with computer operations and cause damage to data & software.**
 
 ## Malware — Core Definition
-
 **Software designed to harm devices & software.**
-
----
 
 ### 🕰️ 1986 — Brain Virus (Alvi Brothers)
 
@@ -93,7 +89,6 @@ A person or group who presents a **security risk**.
 - 📊 **Damage**: 6,000 computers → ~10% of the internet at the time
 - 🏛️ **Aftermath**: CERTs (Computer Emergency Response Teams) were established
 
----
 
 ## Virus in the Digital Age
 
@@ -106,7 +101,6 @@ A person or group who presents a **security risk**.
 - 📧 **MO**: email titled "I love you" → upon opening, would send itself to everyone in the recipient's address book & install a program to collect usernames and passwords
 - 💥 **Damage**: 40 million computers
 
----
 
 ## Phishing — Core Definition
 
