@@ -113,3 +113,22 @@ A person or group who presents a **security risk**.
 - 📊 **Affected**: 143 million customer records stolen (PII & SPII information)
 - 🔓 **Possible cause**: vulnerabilities (unpatched systems)
 - 💰 **Settlement**: $575 million
+
+## Methods of Attack — 20th July
+
+| # | Term | Definition | Category |
+|---|------|------------|----------|
+| 1 | **Physical Social Engineering** | An attack in which the threat actor impersonates an employee, customer, or vendor to obtain unauthorized access to a physical location | Social Engineering |
+| 2 | **Spear Phishing** | A malicious email attack targeting a specific user or group of users that appears to originate from a trusted source | Phishing |
+| 3 | **Worm** | Malware that self-replicates, spreading across the network and infecting computers | Malware |
+| 4 | **Virus** | A malware program that modifies other computer programs by inserting its own code to damage and/or destroy data | Malware |
+| 5 | **Vishing** | Exploitation of electronic voice communication to obtain sensitive info or to impersonate a known source | Phishing |
+| 6 | **Watering Hole Attack** | An attack in which the attacker compromises a website frequented by the target | Social Engineering |
+| 7 | **Phishing** | The use of digital communication to trick people into revealing sensitive data or deploying malicious software | Phishing |
+| 8 | **Business Email Compromise (BEC)** | An attack in which a threat actor impersonates a known source to obtain a financial advantage | Phishing |
+| 9 | **Social Media Phishing** | Attacker collects detailed information about their target on social media sites before initiating an attack | Social Engineering |
+| 10 | **Ransomware** | A malicious attack during which the attacker encrypts an organisation's data and demands payment to restore access | Malware |
+| 11 | **Malware** | Software designed to harm devices & software | Malware |
+| 12 | **Spyware** | Installed without permission, used to spy & steal | Malware |
+| 13 | **Whaling** | Form of spear phishing which targets executives | Phishing |
+| 14 | **USB Baiting** | Strategically leaves a malware USB stick for an employee to find & unknowingly infect a network | Social Engineering / Malware |
