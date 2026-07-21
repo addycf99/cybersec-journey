@@ -66,3 +66,56 @@ A person or group who presents a **security risk**.
 - 🔎 **Analyzes** — flags unusual patterns or anomalies that could indicate a threat
 - 🚨 **Alerts** — notifies security analysts in real time so they can investigate and respond quickly
 - 🧰 **Examples** — Splunk, Chronicle (Google), IBM QRadar
+
+
+
+## Computer Virus — Core Definition
+
+**Malicious code written to interfere with computer operations and cause damage to data & software.**
+
+## Malware — Core Definition
+
+**Software designed to harm devices & software.**
+
+---
+
+### 🕰️ 1986 — Brain Virus (Alvi Brothers)
+
+- 👥 **Created by**: Alvi brothers
+- 🎯 **Initial intent**: track illegal copies of medical software and prevent pirated licenses
+- ⚠️ **Unexpected turn**: one person used a pirated copy of the software → the virus infected that computer → any disk inserted into that computer also got infected *(OMG!! Pandemic. But digital.)*
+
+### 🕰️ 1988 — Morris Worm (Robert Morris)
+
+- 👤 **Created by**: Robert Morris
+- 🎯 **Initial intent**: assess the size of the internet — program crawled to other computers to tally their numbers
+- ⚠️ **Unexpected turn**: the program had no way to track computers it had already compromised, so it reinstalled itself repeatedly until computers ran out of memory & crashed
+- 📊 **Damage**: 6,000 computers → ~10% of the internet at the time
+- 🏛️ **Aftermath**: CERTs (Computer Emergency Response Teams) were established
+
+---
+
+## Virus in the Digital Age
+
+- 🌐 **Malware → internet**: no need for a physical disk anymore
+
+### 🕰️ 2000 — ILOVEYOU / Love Letter Attack (Onel de Guzman)
+
+- 👤 **Created by**: Onel de Guzman
+- 🎯 **Intent**: malicious — steal credentials
+- 📧 **MO**: email titled "I love you" → upon opening, would send itself to everyone in the recipient's address book & install a program to collect usernames and passwords
+- 💥 **Damage**: 40 million computers
+
+---
+
+## Phishing — Core Definition
+
+**The use of digital communications to trick people into revealing sensitive data or deploying malicious software.**
+
+### 🕰️ 2017 — Equifax Breach
+
+- ❓ **Attacker**: not mentioned/unknown
+- 🎯 **What happened**: attackers successfully infiltrated the credit reporting agency Equifax
+- 📊 **Affected**: 143 million customer records stolen (PII & SPII information)
+- 🔓 **Possible cause**: vulnerabilities (unpatched systems)
+- 💰 **Settlement**: $575 million
