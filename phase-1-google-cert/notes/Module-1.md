@@ -132,3 +132,176 @@ A person or group who presents a **security risk**.
 | 12 | **Spyware** | Installed without permission, used to spy & steal | Malware |
 | 13 | **Whaling** | Form of spear phishing which targets executives | Phishing |
 | 14 | **USB Baiting** | Strategically leaves a malware USB stick for an employee to find & unknowingly infect a network | Social Engineering / Malware |
+
+
+
+## CISSP (Certified Information System Security Professional) — Core Definition
+
+**An advanced-level security certification issued by (ISC)², covering 8 domains.**
+
+### 8 Domains
+- 🎯 **Security & Risk Management** → goals, mitigation, compliance (HIPAA), BCP
+- 🔐 **Asset Security** → secure assets, storage, maintenance, retention & destruction
+- 🏗️ **Security Architecture & Engineering** → tools, systems & processes in place
+- 📡 **Communication & Network Security** → wired & wireless (user behavior)
+- 🪪 **Identity & Access Management** → role-based, policy-based
+- ✅ **Security Assessment & Testing** → control testing, risks, threats, vulnerability
+- 🚨 **Security Operations** → investigations & implementing preventive measures
+- 💻 **Software Development Security** → secure coding practices
+
+## Attack Types
+
+- 🔑 **Password attacks** — brute force, rainbow table
+- 🎭 **Social engineering attack** — exploits human error
+- 🏢 **Physical attack** — affects digital & physical environments
+- 🤖 **Adversarial AI** — manipulates AI/ML to conduct attacks more efficiently
+- 🔗 **Supply chain attack** — involves third parties, affects multiple organisations, costly
+- 🔒 **Cryptographic attack** — targets secure communication between sender & intended recipient
+
+
+## Threat Actor Types (Attacker Types)
+
+### 1️⃣ Advanced Persistent Threats (APTs)
+- Significant expertise accessing an organisation's network
+- Research targets
+- Intent to damage or gain access to IP
+
+### 2️⃣ Insider Threats
+- Abuse their authorized access
+- Intent → espionage, sabotage, data leak
+
+### 3️⃣ Hacktivists
+- Driven by political agenda
+- Intent → demos, propaganda, fame
+
+**Hackers →** Authorized, Semi-Authorized, Unauthorized
+
+## Security Frameworks & Controls
+
+**Security frameworks are guidelines** → plans to mitigate risks & threats to data & privacy → structured approach to implementing security lifecycle.
+
+- 🎯 **Purpose** → protecting PII & SPII, identifying weakness in security, org risks, security alignment with business goals
+
+### Four Core Components
+1. 📝 Identifying & documenting goals
+2. 📋 Guidelines to achieve goals
+3. ⚙️ Procedures
+4. 👀 Monitoring & communication
+
+*(eg. GDPR)*
+
+**Controls** → specific security risk (mitigations put in place)
+
+## Secure Design
+
+### CIA Triad
+**A foundational model that helps inform how organisations consider risks when setting up systems & security policies.**
+
+- 🔒 **Confidentiality** → only authorized users
+- ✅ **Integrity** → data is correct, authentic & reliable
+- 🟢 **Available** → data is available to authorized users when required
+
+### NIST CSF (Framework, Voluntary, RMF)
+Consists of standards, guidelines & best practices to manage cybersecurity risks.
+
+### FERC–NERC
+**(Federal Energy Regulatory Commission – North American Electric Reliability Corporation)**
+- Regulations that apply to orgs that work with electricity
+- Prepare, mitigate, report security incidents that can negatively affect power grid
+- Legally required to adhere to Critical Infrastructure Protection (CIP)
+
+## Compliance & Regulatory Frameworks
+
+### FedRAMP (Federal Risk & Authorization Management Program)
+- US Fed gov program
+- Standardizes security assessments, authorisation, monitoring & handling of cloud services & product offerings
+- Consistency across government sector
+
+### CIS (Center for Internet Security)
+- Non-profit
+- Better defense
+
+### GDPR
+- Right to privacy for EU nationals
+
+### PCI DSS (Payment Card Industry Data Security Standard)
+- Credit card info in secure env
+- Compliance standard to reduce credit card fraud
+
+### HIPAA (Health Insurance Portability & Accountability Act)
+- US Fed law
+- Protect patient health information
+- 3 rules → Privacy, Security, Breach notification
+- PHI → Protected Health Info
+
+### ISO (International Organisation for Standardisation)
+
+## System & Organisation Controls (SOC Type 1, SOC Type 2)
+
+- **AICPA** → Certified Public Accountant
+- SOC1 & SOC2 focus on org user access policies at different organisational levels: Associate, Supervisor, Manager, Executive, Vendor, etc.
+
+## Ethics
+
+- 🤐 **Confidentiality** → proprietary or private info; my ethical duty is to keep it confidential
+- 🔐 **Privacy protection** → safeguarding personal info from unauthorized use, accessing & sharing employee's PII
+- ⚖️ **Law** → rules
+
+**Note:** The only individuals in the US who are allowed to counterattack are approved employees of the federal government or military personnel.
+
+### ICJ (right to counterattack, if authorized)
+- Will only affect the party that attacked
+- Direct comm asking attacker to stop
+- Does not escalate situation
+- Can be reversed
+
+### Logs & SIEM
+- 📄 **Log** → record of events
+- 🔎 **SIEM** → collects logs → analyses → filters
+  - Splunk, Chronicle
+  - Self-hosted / Cloud-native (SaaS)
+
+### Playbook
+- Manual of how-tos, different for each org
+- Covers: security, compliance, access management
+- Provides evidence/forensic help for insurance decisions
+
+### Network Protocol Analyzer (Packet Sniffer)
+- Designed to capture & analyze traffic within a network
+- Tools: TCPdump, Wireshark
+
+## Forensics — Playbook
+
+### Chain of Custody
+- Documenting evidence, possession & control during incident lifecycle
+- Who, what, where, why
+- Evidence logs
+
+### Protecting & Preserving Evidence Playbook
+- Fragile & volatile digital evidence
+- Sequence of preservation
+- Prioritizes volatile data → **Order of Volatility**
+
+
+## Introduction to Linux, SQL & Python
+
+- 🐧 **Linux** → OS, open source, CLI-based → examine logs, investigate system
+- 🗄️ **SQL & Python** → create, interact with & request info from DB
+  - Automates repetitive & time-consuming tasks
+  - Tasks that require high level of accuracy & detail
+
+
+## More Tools & Concepts
+
+| # | Term | Definition |
+|---|------|------------|
+| 1 | **Programming** | Process/set of instructions for a computer to execute a task |
+| 2 | **Automation** | Using tech to reduce human involvement (manual, common, repetitive) → reduces human error |
+| 3 | **SQL** | Same explanation as Programming |
+| 4 | **OS** | Interface between computer hardware & user |
+| 5 | **Command** | Instruction |
+| 6 | **CLI** | Text-based UI |
+| 7 | **Web Vulnerability** | Flaw in web app |
+| 8 | **Antivirus** | Prevent, detect & eliminate |
+| 9 | **IDS** | Monitors system activity & then alerts upon intrusion |
+| 10 | **Encoding** | Public conversion algo to share info |
